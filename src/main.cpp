@@ -26,7 +26,7 @@ const String invalidByteMessage = "====== INVALID BYTECODE READ, VALID BYTES = 1
 systemModeENUM systemMode;
 unsigned long beamBreakTime = 0;
 int lastBeamStatus = LOW;
-boolean plainMode = false;
+boolean plainMode = true;
 
 void setMode(systemModeENUM newMode) {
     switch (newMode) {
