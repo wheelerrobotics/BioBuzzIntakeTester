@@ -26,7 +26,7 @@ const String invalidByteMessage = "====== INVALID BYTECODE READ, VALID BYTES = 1
 systemModeENUM systemMode;
 unsigned long beamBreakTime = 0;
 int lastBeamStatus = LOW;
-boolean plainMode = false;
+boolean plainMode = true;
 
 void setMode(systemModeENUM newMode) {
     switch (newMode) {
@@ -46,7 +46,7 @@ void setMode(systemModeENUM newMode) {
 }
 
 void setup() {
-    Serial.begin(115200);
+    Serial.begin(9600);
     delay(1000);
 
     pinMode(inputPin, INPUT_PULLUP);
