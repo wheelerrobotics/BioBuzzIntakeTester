@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArduinoSettingsState">
+    <option name="espIdfPath" value="$PROJECT_DIR$/../esp/esp-idf" />
+    <option name="arduinoCliPath" value="/opt/homebrew/bin/arduino-cli" />
+    <option name="activeBackend" value="platformio" />
+  </component>
+</project>
